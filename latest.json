@@ -1,15 +1,15 @@
 {
   "version": "0.1.1",
-  "build": 148,
+  "build": 153,
   "released": "2026-08-19",
   "file": "NXG Takeoff-0.1.1-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64.pkg",
-  "sha256": "b37049be1f6b59bfd46fcf9121b6ac7c43c849bd8265ee9c5c8d6483cdff8924",
-  "bytes": 146920714,
+  "sha256": "647c7ce8e08a529416d32487162bee2f066e53c48b1e741b2f8bb0bdf8409ec5",
+  "bytes": 178822019,
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64-mac.zip",
-  "zipSha256": "e9f48ff92574a8baa5d41cef8c3e005394b90338b59a8d03a754d129e594398d",
-  "zipBytes": 141571300,
-  "notes": "First build that updates itself.\n\n- The app checks for a new build, downloads it in the background, and installs\n  it when you quit. Nothing is replaced while you are working.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet issued-for-\n  construction set used to take eight seconds to show its first sheet.\n- The estimate page opens instantly on a big job — 4,000 marks went from 29\n  seconds to under one.\n- Click any figure in the Cost column to see the marks on the sheet behind it.\n- 1-9 and the bracket keys switch which group you are measuring into, without\n  leaving the drawing.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer show as broken images.",
-  "sig": "0z47F149yhnFYIZQcXrUUsrxmGYm4ErdYXa4FaUkD6NYsKuubScd8j91biEtcLd9Q9mVZ1IHDfvU9/aojx1EBw=="
+  "zipSha256": "5c104ecc6fb51775007e37ac4ff1b6e6b8af46f3726591d8d7bf8b1951f98776",
+  "zipBytes": 172277766,
+  "notes": "The build that updates itself.\n\n- The app checks for a new build, downloads it in the background, verifies it,\n  and installs it when you quit. Nothing is replaced while you are working.\n- Every update is signed. A version file not signed by NeXGen is refused, so\n  getting into the releases repository is not enough to push anything.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet construction\n  set used to take eight seconds to show its first sheet, and locked up when\n  you zoomed in.\n- The estimate opens instantly on a big job — 4,000 marks went from 29 seconds\n  to under one.\n- Revisions: price the design development set, price the construction documents\n  when they land, and see exactly what moved, group by group.\n- Click any figure in the Cost column to see the marks behind it on the sheet.\n- 1–9 and the bracket keys switch which group you are measuring into.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer arrive as broken images.",
+  "sig": "iqaTKaavsfQ0aIBhLrrGZX9kpha7qhEdV5Yb3Fv+nBVhBIt+X3DRqaROsR5IfQfBzEpQMkKUicXNASytgcKPDQ=="
 }
