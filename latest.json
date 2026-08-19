@@ -1,15 +1,15 @@
 {
   "version": "0.1.1",
-  "build": 146,
+  "build": 148,
   "released": "2026-08-19",
   "file": "NXG Takeoff-0.1.1-arm64.pkg",
   "notarized": false,
-  "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG%20Takeoff-0.1.1-arm64.pkg",
-  "sha256": "69e046d90c73482658fd065819cfa4d433c39489a5670e26abd844b3e5fe1161",
-  "bytes": 146920681,
-  "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG%20Takeoff-0.1.1-arm64-mac.zip",
-  "zipSha256": "8ff5036741ea9a28cb50c3ca78b2ba16102781f8664e76839f13dfc6af7eddb6",
-  "zipBytes": 141571299,
+  "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64.pkg",
+  "sha256": "b37049be1f6b59bfd46fcf9121b6ac7c43c849bd8265ee9c5c8d6483cdff8924",
+  "bytes": 146920714,
+  "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64-mac.zip",
+  "zipSha256": "e9f48ff92574a8baa5d41cef8c3e005394b90338b59a8d03a754d129e594398d",
+  "zipBytes": 141571300,
   "notes": "First build that updates itself.\n\n- The app checks for a new build, downloads it in the background, and installs\n  it when you quit. Nothing is replaced while you are working.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet issued-for-\n  construction set used to take eight seconds to show its first sheet.\n- The estimate page opens instantly on a big job — 4,000 marks went from 29\n  seconds to under one.\n- Click any figure in the Cost column to see the marks on the sheet behind it.\n- 1-9 and the bracket keys switch which group you are measuring into, without\n  leaving the drawing.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer show as broken images.",
-  "sig": "0Y++pVeUxTzDg2mCtaAsTFU/zLMOB8aAOWiAhIlAPlyLM4HiimS1wuKsRyUEg+ZlAL/isWfPAJHzuNhuU18gAQ=="
+  "sig": "0z47F149yhnFYIZQcXrUUsrxmGYm4ErdYXa4FaUkD6NYsKuubScd8j91biEtcLd9Q9mVZ1IHDfvU9/aojx1EBw=="
 }
