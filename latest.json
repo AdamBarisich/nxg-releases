@@ -1,15 +1,15 @@
 {
   "version": "0.1.1",
-  "build": 153,
-  "released": "2026-08-19",
+  "build": 172,
+  "released": "2026-08-21",
   "file": "NXG Takeoff-0.1.1-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64.pkg",
-  "sha256": "647c7ce8e08a529416d32487162bee2f066e53c48b1e741b2f8bb0bdf8409ec5",
-  "bytes": 178822019,
+  "sha256": "c68d3b7bf196f5024cbf453521e035c80415722425fd3f4da721c4d90bada329",
+  "bytes": 178847061,
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64-mac.zip",
-  "zipSha256": "5c104ecc6fb51775007e37ac4ff1b6e6b8af46f3726591d8d7bf8b1951f98776",
-  "zipBytes": 172277766,
+  "zipSha256": "1bf278f9fcd6d3d34e935375b7be816098b5eaec30da94ad86abec80a515a5b1",
+  "zipBytes": 172298666,
   "notes": "The build that updates itself.\n\n- The app checks for a new build, downloads it in the background, verifies it,\n  and installs it when you quit. Nothing is replaced while you are working.\n- Every update is signed. A version file not signed by NeXGen is refused, so\n  getting into the releases repository is not enough to push anything.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet construction\n  set used to take eight seconds to show its first sheet, and locked up when\n  you zoomed in.\n- The estimate opens instantly on a big job — 4,000 marks went from 29 seconds\n  to under one.\n- Revisions: price the design development set, price the construction documents\n  when they land, and see exactly what moved, group by group.\n- Click any figure in the Cost column to see the marks behind it on the sheet.\n- 1–9 and the bracket keys switch which group you are measuring into.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer arrive as broken images.",
-  "sig": "iqaTKaavsfQ0aIBhLrrGZX9kpha7qhEdV5Yb3Fv+nBVhBIt+X3DRqaROsR5IfQfBzEpQMkKUicXNASytgcKPDQ=="
+  "sig": "tbBwkLzqRbIrK+TI2lO4LeSr8DUWvvspSmmiFrN7/oKV4wlOSIWXn2mWpGTraGJ5W1bmD+nZmbrU+gWIkcSZDw=="
 }
