@@ -1,15 +1,15 @@
 {
   "version": "0.1.1",
-  "build": 172,
-  "released": "2026-08-21",
+  "build": 173,
+  "released": "2026-08-22",
   "file": "NXG Takeoff-0.1.1-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64.pkg",
-  "sha256": "c68d3b7bf196f5024cbf453521e035c80415722425fd3f4da721c4d90bada329",
-  "bytes": 178847061,
+  "sha256": "032e54598a54a890d582bd825a8bc90b8218692c212b0cd6a352178cf0cac6e2",
+  "bytes": 178846954,
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64-mac.zip",
-  "zipSha256": "1bf278f9fcd6d3d34e935375b7be816098b5eaec30da94ad86abec80a515a5b1",
-  "zipBytes": 172298666,
+  "zipSha256": "f0c0a419edd7450500c9a4172b4b904da230a78075bbd07c34295dd871c53509",
+  "zipBytes": 172298674,
   "notes": "The build that updates itself.\n\n- The app checks for a new build, downloads it in the background, verifies it,\n  and installs it when you quit. Nothing is replaced while you are working.\n- Every update is signed. A version file not signed by NeXGen is refused, so\n  getting into the releases repository is not enough to push anything.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet construction\n  set used to take eight seconds to show its first sheet, and locked up when\n  you zoomed in.\n- The estimate opens instantly on a big job — 4,000 marks went from 29 seconds\n  to under one.\n- Revisions: price the design development set, price the construction documents\n  when they land, and see exactly what moved, group by group.\n- Click any figure in the Cost column to see the marks behind it on the sheet.\n- 1–9 and the bracket keys switch which group you are measuring into.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer arrive as broken images.",
-  "sig": "tbBwkLzqRbIrK+TI2lO4LeSr8DUWvvspSmmiFrN7/oKV4wlOSIWXn2mWpGTraGJ5W1bmD+nZmbrU+gWIkcSZDw=="
+  "sig": "JsDPK2jDZMQddSz30hIYz1oyvH60ENRt6gTsj0+/fvPm/MgXhbN6CpEQxa19pic/0HfifLPgba2EP/V8FiwTDw=="
 }
