@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 175,
+  "build": 176,
   "released": "2026-08-22",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "be42479f50d47e3e44cef89028391d82e8fbe7569b74609e699a018064cc5ee4",
-  "bytes": 178846703,
+  "sha256": "67c84c07f23ea394ef6e0b7bb8b9e15674b1a955e28484469243d6dacaa43120",
+  "bytes": 178846737,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "b7eda86a238f31c57aef504be87b5f509011e61938a5bc4e25cd8308dd521b9e",
+  "zipSha256": "ae10ce62530658d07b589b130235526e070a61c1e455e249370fb2ad5c74cbb2",
   "zipBytes": 172298672,
-  "notes": "The build that updates itself.\n\n- The app checks for a new build, downloads it in the background, verifies it,\n  and installs it when you quit. Nothing is replaced while you are working.\n- Every update is signed. A version file not signed by NeXGen is refused, so\n  getting into the releases repository is not enough to push anything.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet construction\n  set used to take eight seconds to show its first sheet, and locked up when\n  you zoomed in.\n- The estimate opens instantly on a big job — 4,000 marks went from 29 seconds\n  to under one.\n- Revisions: price the design development set, price the construction documents\n  when they land, and see exactly what moved, group by group.\n- Click any figure in the Cost column to see the marks behind it on the sheet.\n- 1–9 and the bracket keys switch which group you are measuring into.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer arrive as broken images.",
-  "sig": "YyTfxXpTCwfhZVhlWbpz2DcJjBejMmmzSgaKHIZM2bcacR/B8DE9UirScBCWURZkO3jaE+GB3CdAN6x+wungDA=="
+  "notes": "A test build, cut to prove the updater works end to end.\n\nNothing in the app changed. This exists so an installed copy has something\nnewer to find, download and verify — the one stretch of the update path that\ncould never be tested from a development build, because a development build\nrefuses to update itself on purpose.\n\nIf your copy offered you this and installed it, the updater works.",
+  "sig": "UgvFUqCqZB6b3c+NacYmqHdFGFkJanJ0V6U2PcwxOWNFTEDcp6iBUNVeHW2d2jyrAmYaK/0t4JLfYKLbGfx1DA=="
 }
