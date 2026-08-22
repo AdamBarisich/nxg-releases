@@ -1,15 +1,15 @@
 {
-  "version": "0.1.1",
-  "build": 173,
+  "version": "0.1.2",
+  "build": 174,
   "released": "2026-08-22",
-  "file": "NXG Takeoff-0.1.1-arm64.pkg",
+  "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
-  "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64.pkg",
-  "sha256": "032e54598a54a890d582bd825a8bc90b8218692c212b0cd6a352178cf0cac6e2",
-  "bytes": 178846954,
+  "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
+  "sha256": "9f62d7df9a280180fdb90944aeaff2d4d4f262aa552c13ff7e1133fad889bd18",
+  "bytes": 178846844,
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.1-arm64-mac.zip",
-  "zipSha256": "f0c0a419edd7450500c9a4172b4b904da230a78075bbd07c34295dd871c53509",
-  "zipBytes": 172298674,
+  "zipSha256": "2fe11ec713910afea2cc10369fa06b53089d06e4b89d00b771bbf63a1d1f3a47",
+  "zipBytes": 172298672,
   "notes": "The build that updates itself.\n\n- The app checks for a new build, downloads it in the background, verifies it,\n  and installs it when you quit. Nothing is replaced while you are working.\n- Every update is signed. A version file not signed by NeXGen is refused, so\n  getting into the releases repository is not enough to push anything.\n- A real plan set opens in under a second. An 84.6 MB, 62-sheet construction\n  set used to take eight seconds to show its first sheet, and locked up when\n  you zoomed in.\n- The estimate opens instantly on a big job — 4,000 marks went from 29 seconds\n  to under one.\n- Revisions: price the design development set, price the construction documents\n  when they land, and see exactly what moved, group by group.\n- Click any figure in the Cost column to see the marks behind it on the sheet.\n- 1–9 and the bracket keys switch which group you are measuring into.\n- Cost codes carry through to invoices and purchase orders.\n- Photos taken on an iPhone no longer arrive as broken images.",
-  "sig": "JsDPK2jDZMQddSz30hIYz1oyvH60ENRt6gTsj0+/fvPm/MgXhbN6CpEQxa19pic/0HfifLPgba2EP/V8FiwTDw=="
+  "sig": "oozcQNx/c4t36JeZ6WxHXIF9DBtcNTTHrqhkXY/LlEx8TpbabbJb3++B6vgv3LMuqfTAlzf2KiM2+5zZw2tVAg=="
 }
