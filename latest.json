@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 176,
+  "build": 177,
   "released": "2026-08-22",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "67c84c07f23ea394ef6e0b7bb8b9e15674b1a955e28484469243d6dacaa43120",
-  "bytes": 178846737,
+  "sha256": "a4a946791113bda5aa8c2ef63fe41e66ef4d099131f1fcb23830dd8fba851ed1",
+  "bytes": 178848012,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "ae10ce62530658d07b589b130235526e070a61c1e455e249370fb2ad5c74cbb2",
-  "zipBytes": 172298672,
-  "notes": "A test build, cut to prove the updater works end to end.\n\nNothing in the app changed. This exists so an installed copy has something\nnewer to find, download and verify — the one stretch of the update path that\ncould never be tested from a development build, because a development build\nrefuses to update itself on purpose.\n\nIf your copy offered you this and installed it, the updater works.",
-  "sig": "UgvFUqCqZB6b3c+NacYmqHdFGFkJanJ0V6U2PcwxOWNFTEDcp6iBUNVeHW2d2jyrAmYaK/0t4JLfYKLbGfx1DA=="
+  "zipSha256": "f16a02b777cbc90738e4191d40ff7d6ba48a56917d70af1b11d8d68f0c74793a",
+  "zipBytes": 172302246,
+  "notes": "Updates no longer need a Terminal.\n\n- A copy that cannot replace itself now downloads the installer, checks it\n  against the signed checksum, and offers to open it. Before this it said it\n  could not update and stopped, and the only way forward was a sudo command.\n- Installing hands the app to whoever installed it, so a fresh install updates\n  itself silently from then on — a .pkg runs as root, and a root-owned app\n  cannot replace its own bundle.\n- The update bar says which of the two is about to happen rather than promising\n  a quiet install it cannot do.\n\nAnd the front page survives being resized. Below about 860 pixels tall the logo\nwent off the top and the drop zone off the bottom, and neither could be scrolled\nto. It fits, scrolls when it has to, and drops the welcome furniture on a short\nwindow so the folder list stays where you can reach it.",
+  "sig": "ngShgXn8usJD5wLG2/D46G+MYRhNzwrWt5iSktdSIOmWgyhiNitSXaDYU/Qc3euhps/2H4yq8s6Gg90WX1CuAA=="
 }
