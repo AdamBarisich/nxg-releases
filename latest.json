@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 179,
-  "released": "2026-08-22",
+  "build": 180,
+  "released": "2026-08-23",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "58ac2bff0739f9c6b701c322198caff9c38189fb58f398d6e121289506db3acb",
-  "bytes": 178849109,
+  "sha256": "3ef2f385e68eb17f6c49f1a5721dc943bd8046ba13bd987ea593febe97d31957",
+  "bytes": 178847388,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "00f096bb2b242034a128ee1f6ab929a81a65b95c20444a5a0bf7f370637fb049",
-  "zipBytes": 172302249,
-  "notes": "Updates no longer need a Terminal.\n\n- A copy that cannot replace itself now downloads the installer, checks it\n  against the signed checksum, and offers to open it. Before this it said it\n  could not update and stopped, and the only way forward was a sudo command.\n- Installing hands the app to whoever installed it, so a fresh install updates\n  itself silently from then on — a .pkg runs as root, and a root-owned app\n  cannot replace its own bundle.\n- The update bar says which of the two is about to happen rather than promising\n  a quiet install it cannot do.\n\nAnd the front page survives being resized. Below about 860 pixels tall the logo\nwent off the top and the drop zone off the bottom, and neither could be scrolled\nto. It fits, scrolls when it has to, and drops the welcome furniture on a short\nwindow so the folder list stays where you can reach it.",
-  "sig": "wBGVLaDoHalebvsIWq4uq7+IB0Haqkg5QLuk7Ez2zjvUgvGg1E/D22lnsMgXNhx/vRJkJnfyFc/M9xPvv03OCQ=="
+  "zipSha256": "46d4f238a6ae21c0d49e86706cc6cc0fab605c8be938f4d83205244114f64c25",
+  "zipBytes": 172303310,
+  "notes": "Create project, and an updater that does not lose its work.\n\n- Create project… on the menu page. A job before it has any drawings: name,\n  client, address, square feet and scope, a folder made for it, and any\n  documents copied in — or none, which is the normal answer the day a job is\n  won. It shows in Active projects straight away.\n\n- A finished download survives a quit. It used to unpack into a temporary\n  folder and be forgotten on the way out, so closing the app threw away the\n  whole update and the next launch began again.\n\n- A check that fails is written to the diagnostic log instead of vanishing,\n  and no longer counts as the day's check — one failed attempt used to spend\n  the whole twenty-four hour allowance in silence.\n\n- The front page survives being resized. Below about 860 pixels tall the logo\n  went off the top and the drop zone off the bottom, and neither could be\n  reached.",
+  "sig": "Usy8bYaLPUT1E/wwbqT0CmwuLRde0N5ntDIDKLIoBpjjNIpU9vrowwYwqnSuPURrQzwlpjMNYK2UC6ZzLsqjAw=="
 }
