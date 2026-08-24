@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 180,
-  "released": "2026-08-23",
+  "build": 181,
+  "released": "2026-08-24",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "3ef2f385e68eb17f6c49f1a5721dc943bd8046ba13bd987ea593febe97d31957",
-  "bytes": 178847388,
+  "sha256": "92051dd33bbc54df2bfc972d1b691a3e65e3634da2040d3a0fb660b7fe301b88",
+  "bytes": 178848933,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "46d4f238a6ae21c0d49e86706cc6cc0fab605c8be938f4d83205244114f64c25",
-  "zipBytes": 172303310,
-  "notes": "Create project, and an updater that does not lose its work.\n\n- Create project… on the menu page. A job before it has any drawings: name,\n  client, address, square feet and scope, a folder made for it, and any\n  documents copied in — or none, which is the normal answer the day a job is\n  won. It shows in Active projects straight away.\n\n- A finished download survives a quit. It used to unpack into a temporary\n  folder and be forgotten on the way out, so closing the app threw away the\n  whole update and the next launch began again.\n\n- A check that fails is written to the diagnostic log instead of vanishing,\n  and no longer counts as the day's check — one failed attempt used to spend\n  the whole twenty-four hour allowance in silence.\n\n- The front page survives being resized. Below about 860 pixels tall the logo\n  went off the top and the drop zone off the bottom, and neither could be\n  reached.",
-  "sig": "Usy8bYaLPUT1E/wwbqT0CmwuLRde0N5ntDIDKLIoBpjjNIpU9vrowwYwqnSuPURrQzwlpjMNYK2UC6ZzLsqjAw=="
+  "zipSha256": "e573285631223e473069231e173ca368f3b2e4641aa8bae65a8488a8f91caa99",
+  "zipBytes": 172305131,
+  "notes": "Checks for updates every hour, and while the app is open.\n\n- It used to check once a day, and only at launch. On an app that stays open all\n  week that meant a build published on Tuesday morning was not offered until\n  somebody happened to restart.\n\n- Create project… on the menu page: a job before it has any drawings. Name,\n  client, address, square feet and scope, a folder made for it, and any\n  documents copied in — or none, which is the normal answer the day a job is\n  won. It appears in Active projects straight away.\n\n- Xero. Settings now takes a Custom Connection's client id and secret, kept in\n  this Mac's keychain, and can prove the connection before anything depends on\n  it.\n\n- A finished download survives a quit, a failed check is written down instead of\n  vanishing, and one failed check no longer spends the whole allowance.\n\n- The front page survives being resized.",
+  "sig": "iQzxH1xQCGh8Rk9CXN9GjP1kQf/dqiJwk4Eq+GT4+hwMJCnhg5l1wY571W7dHoTbBz1yI69NdqKfBLZKXE9+DQ=="
 }
