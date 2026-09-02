@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 181,
-  "released": "2026-08-24",
+  "build": 182,
+  "released": "2026-09-02",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "92051dd33bbc54df2bfc972d1b691a3e65e3634da2040d3a0fb660b7fe301b88",
-  "bytes": 178848933,
+  "sha256": "2c17c5a2a907bb02ac3ce5fc88908b15ce522e3e40fc232774b8c3cad3e90c2f",
+  "bytes": 178849657,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "e573285631223e473069231e173ca368f3b2e4641aa8bae65a8488a8f91caa99",
-  "zipBytes": 172305131,
-  "notes": "Checks for updates every hour, and while the app is open.\n\n- It used to check once a day, and only at launch. On an app that stays open all\n  week that meant a build published on Tuesday morning was not offered until\n  somebody happened to restart.\n\n- Create project… on the menu page: a job before it has any drawings. Name,\n  client, address, square feet and scope, a folder made for it, and any\n  documents copied in — or none, which is the normal answer the day a job is\n  won. It appears in Active projects straight away.\n\n- Xero. Settings now takes a Custom Connection's client id and secret, kept in\n  this Mac's keychain, and can prove the connection before anything depends on\n  it.\n\n- A finished download survives a quit, a failed check is written down instead of\n  vanishing, and one failed check no longer spends the whole allowance.\n\n- The front page survives being resized.",
-  "sig": "iQzxH1xQCGh8Rk9CXN9GjP1kQf/dqiJwk4Eq+GT4+hwMJCnhg5l1wY571W7dHoTbBz1yI69NdqKfBLZKXE9+DQ=="
+  "zipSha256": "879a8c51d4b41cea72dbc216dc3f665f4e25b85feae0e5a0a5d7b080f7e1a0f8",
+  "zipBytes": 172306619,
+  "notes": "A bug audit across the whole app. Nothing new to learn; a lot that now does what it said.\n\n- A proposal covering part of a bid printed the scoped list up top and the\n  whole bid's Subtotal, Tax and Total underneath. It now totals what is on the\n  page, tax included, and lists only the alternates in scope.\n\n- Closing a window or a tab with unsaved markup asks first, every time. The\n  question used to arrive after the window was already gone, so it never\n  appeared, and the recovery copy was then deleted as \"closed on purpose\".\n\n- A revision re-saved while a newer one exists on the folder (two Macs, one\n  job) is no longer pruned the instant it is written; and the autosave stands\n  down instead of writing over a revision another Mac made since.\n\n- The buy list no longer orders material for alternates nobody took or change\n  orders nobody signed. A purchase order that was never sent commits nothing.\n\n- A trade that nets to a credit stays on the breakdown instead of vanishing\n  and overstating the price by that amount. A negative amount prints with a\n  plain hyphen, which is the one the PDF font can encode.\n\n- Sending a proposal only counts as sent — and only bumps its revision — once\n  the file is actually on disk.\n\n- An installer staged for the next quit counts as staged, so the hourly check\n  stops downloading the same one again every hour.\n\n- Settings hand the licence record through to the app again.\n\n- The Claude/MCP server had drifted from the app's money model: crew × days\n  labor priced at $0, the plain-text takeoff crashed on any priced group, and\n  the price book and cost codes were read from places the app stopped writing.\n  All four match the app now.",
+  "sig": "OqL4xguGszfcRCdzfjqzaau+cU1aIeDrdwFh/dFhdKQl3n/Mkn584EBdHHPewM8x7b42PM3qHB1EnhUOezNQAA=="
 }
