@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 182,
-  "released": "2026-09-02",
+  "build": 183,
+  "released": "2026-09-28",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "2c17c5a2a907bb02ac3ce5fc88908b15ce522e3e40fc232774b8c3cad3e90c2f",
-  "bytes": 178849657,
+  "sha256": "5082adb509901a9ae691eef464bea86bb2533d12acb59dfa2062500254079297",
+  "bytes": 178861141,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "879a8c51d4b41cea72dbc216dc3f665f4e25b85feae0e5a0a5d7b080f7e1a0f8",
-  "zipBytes": 172306619,
-  "notes": "A bug audit across the whole app. Nothing new to learn; a lot that now does what it said.\n\n- A proposal covering part of a bid printed the scoped list up top and the\n  whole bid's Subtotal, Tax and Total underneath. It now totals what is on the\n  page, tax included, and lists only the alternates in scope.\n\n- Closing a window or a tab with unsaved markup asks first, every time. The\n  question used to arrive after the window was already gone, so it never\n  appeared, and the recovery copy was then deleted as \"closed on purpose\".\n\n- A revision re-saved while a newer one exists on the folder (two Macs, one\n  job) is no longer pruned the instant it is written; and the autosave stands\n  down instead of writing over a revision another Mac made since.\n\n- The buy list no longer orders material for alternates nobody took or change\n  orders nobody signed. A purchase order that was never sent commits nothing.\n\n- A trade that nets to a credit stays on the breakdown instead of vanishing\n  and overstating the price by that amount. A negative amount prints with a\n  plain hyphen, which is the one the PDF font can encode.\n\n- Sending a proposal only counts as sent — and only bumps its revision — once\n  the file is actually on disk.\n\n- An installer staged for the next quit counts as staged, so the hourly check\n  stops downloading the same one again every hour.\n\n- Settings hand the licence record through to the app again.\n\n- The Claude/MCP server had drifted from the app's money model: crew × days\n  labor priced at $0, the plain-text takeoff crashed on any priced group, and\n  the price book and cost codes were read from places the app stopped writing.\n  All four match the app now.",
-  "sig": "OqL4xguGszfcRCdzfjqzaau+cU1aIeDrdwFh/dFhdKQl3n/Mkn584EBdHHPewM8x7b42PM3qHB1EnhUOezNQAA=="
+  "zipSha256": "c19d405f30cd487c7d544ded0dc294ac64108759b3b7e0370b899eb611e0a464",
+  "zipBytes": 172314408,
+  "notes": "Takeoff the way it is done on every other takeoff tool: pick a condition, draw,\nand every takeoff adds up to one number.\n\n- **+ Condition** opens a setup screen: name it, pick **SF, LF or EA**, and\n  choose its color, line thickness and opacity. Put it in a group and an area\n  while you are there. A name the price book knows arrives priced.\n\n- Draw with it and each takeoff adds to its total. The panel shows one row per\n  condition (2,617 SF, $16,358.76), and the estimate prices it once. The ▸ on\n  the row lists its takeoffs when you want to see or delete one.\n\n- Picking a condition picks up the right tool. Its look belongs to it: change\n  the color or line thickness in the tool panel, the color square, or the setup\n  screen, and every takeoff redraws. A thickness turns a slab into cubic yards;\n  a spacing turns a run into a count.\n\n- **Groups** add conditions together: everything under one sub, or the footing\n  in LF and the slab in SF as one concrete figure.\n\n- **Areas**: put a condition or a whole group in Frontyard, Backyard, Kitchen.\n  The estimate filters to one area and says what it comes to, and the totals\n  break the bid down by area.\n\n- Jobs measured the old way price exactly as they did.\n\nAlso fixed: the \"delete group\" question showed \"[object HTMLDivElement]\" over an\nempty number box instead of its choices, and every yes/no question carried a\nstray \"look on / match\" row.",
+  "sig": "ZtKO9luVKrH84HOBMzmaT+b5+jbNPHDzf5/B85xXZBqUKZPibN3WCEvnO9wP9DfMresUEQQRfaJ23mEzbRG5Dg=="
 }
