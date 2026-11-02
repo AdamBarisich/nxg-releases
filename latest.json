@@ -1,16 +1,16 @@
 {
   "version": "0.1.2",
-  "build": 184,
+  "build": 185,
   "released": "2026-11-02",
   "file": "NXG Takeoff-0.1.2-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64.pkg",
-  "sha256": "cf5c656386f756b53e0c09f22775d0d639570cc963768d6bc99460abf94807db",
-  "bytes": 178876720,
+  "sha256": "c2d30fa3118027a54cfac58728efb4247130a81c10ca99bde3d0aec630faf328",
+  "bytes": 178876653,
   "zipFile": "NXG Takeoff-0.1.2-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.2-arm64-mac.zip",
-  "zipSha256": "ce33e6b5090c2d224c041871f5ec796dfea5d2dc7a61dcab19429174863070e5",
-  "zipBytes": 172333291,
-  "notes": "Takeoff, round two: condition types, a proper setup screen, and a cover sheet.\n\n- **Condition type.** Linear, Wall, Footing/curb, Curve, Area, Floor, Ceiling,\n  Concrete slab, Roof, Count — or Typed for things you don't draw. A wall is\n  drawn as runs and comes out in square feet from its height (one or both\n  sides); a floor or ceiling gives square feet and its perimeter; a slab or\n  footing gives cubic yards. Every quantity is shown, and \"Price per\" picks the\n  one it is priced on.\n\n- **The setup screen** now has notes; a color grid with a row of the colors\n  already in the job; line thickness on screen or in real inches at the\n  sheet's scale (more sizes); a fill opacity and a hatch pattern for areas; a\n  shape — drag out a rectangle, circle, triangle, pentagon, hexagon or octagon,\n  or click a custom one out; marker shapes for counts. Group and Area are lists\n  of everything you have made, with \"New…\" at the bottom.\n\n- **One piece at a time.** Each count point and each segment of a run has its\n  own small box. Click one to pick it, drag to move just it, Delete to remove\n  it (a run splits where the segment was). Cmd, Ctrl or Shift adds another.\n\n- **Right-click a condition** for: take off with it, edit, notes, show its\n  takeoffs, move to a group, assign an area, hide, duplicate, delete. Groups\n  have their own menu.\n\n- **Curve** conditions follow the drawn line between your clicks, so a curved\n  wall or property line is a few clicks.\n\n- **Cover sheet** (Pages → Cover sheet, or Job ▾): bid information and the plan\n  organizer. Sheets are numbered, named and filed by discipline. Add one or more\n  sheets from another PDF without copying the rest, keep only the sheets the job\n  needs, or replace one with a revised version — its takeoff stays, flagged to\n  check. Prints as a cover sheet with the sheet index.\n\n- Area opacity now changes the inside of the shape, and \"Fill the shape\" works.\n  Fills, hatches, marker shapes and real-inch lines come out on the marked-up\n  PDF too. The color square opens the grid; \"More colors…\" is the system picker.\n\n- These notes are readable now: full size and properly formatted, instead of\n  three lines of small text at the bottom of the screen.\n\n- **Updates never touch your work.** An update replaces the app and its own\n  download folder and nothing else; a half-downloaded update is refused instead\n  of installed. (The \"damaged or incomplete\" app on Nov 1 was this.)",
-  "sig": "vPPT/tFU3dH9QcyEA/tpsjG7BAGhIYpyn3ukRZXbSgJVULvKUvRLyNrT1cAtfo4wtglFtZD+L/dY/qirkNTPAA=="
+  "zipSha256": "437af5c650da427cd4ea8fac83edfb40919bad38df13fce4486762355c07bb4a",
+  "zipBytes": 172333326,
+  "notes": "The estimate is a tab now.\n\n- **Estimate** sits beside Ask NXG and Takeoff at the top of the side panel and\n  opens the full-size estimate. Done (or Esc) brings you back to the tab you\n  were on. The \"Open estimate\" button at the foot of the takeoff is gone.\n\n- **Overlay** moved to the top of the Takeoff tab, where it is found without\n  scrolling past the takeoff.",
+  "sig": "hnIJAZTTBsaGK8Xjbi47Wn2kQljYJb1YBVX3vXQhxvPMnBgYEElxPw4zAnKOHSmnjYmqewEH3ClHSxtwg3haAA=="
 }
