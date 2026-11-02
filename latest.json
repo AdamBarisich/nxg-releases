@@ -1,17 +1,17 @@
 {
   "version": "0.1.3",
-  "build": 186,
-  "displayBuild": 1,
+  "build": 187,
+  "displayBuild": 2,
   "released": "2026-11-02",
   "file": "NXG Takeoff-0.1.3-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64.pkg",
-  "sha256": "89c3bf5ab40d69373261e4ed064f8ff08af9a9b6c5dc766a13cda09085efab8c",
-  "bytes": 178876672,
+  "sha256": "1c0c12b08d41fa65d164416d4183247f369dbbf97b41df4613a99fae4dd1b762",
+  "bytes": 178879150,
   "zipFile": "NXG Takeoff-0.1.3-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64-mac.zip",
-  "zipSha256": "32aecac85a664f4ff44b36f341fd653f8dd1ce7dc0c9bc67870f7c51814a4ab8",
-  "zipBytes": 172333372,
-  "notes": "NXG Takeoff 0.1.3, build 1.\n\n- **Estimate** is a tab beside Ask NXG and Takeoff and opens the full-size\n  estimate. Done (or Esc) brings you back to the tab you were on.\n\n- **Overlay** is at the top of the Takeoff tab.\n\n- Version numbers restart their build count with each version: this is 0.1.3\n  build 1. Updates are unaffected.",
-  "sig": "ubOxcQmhIylLSZehXcoKLWRGltuoHiW2iWPWLoGtX6AJGcTBoItHqnYQJE7nyp9F+SYqVzzspQ94jbyHD9AlBA=="
+  "zipSha256": "3433bdcc7d30d03678416fce7dba7b8aa0e9d8ad1c9ef7d1a40aaec33d38f6c6",
+  "zipBytes": 172334830,
+  "notes": "Fixes the update that broke the app.\n\n- **An update never installs under a running app.** \"Restart now\" closes NXG and a\n  small script swaps the new version in. It used to give up waiting after a\n  minute and swap anyway — so if closing was held up (a \"save changes?\"\n  question), the app still open had its files replaced underneath it and showed\n  code instead of the page. It now waits for as long as the app is really open.\n\n- **\"Restart now\" no longer fails with \"swap.sh: no such file\".** A newer update\n  starting to download while the bar still offered the last one deleted the\n  folder the button pointed at.\n\n- **Cover sheet**: a proper button at the top of Pages. In the organizer each\n  sheet has **Duplicate** (one click — a copy right after it, with its scale\n  and name), and a ⋯ menu (or right-click) to move it up or down, rotate it,\n  insert a blank sheet after it, replace it with a revised one, put its scale on\n  every sheet or every sheet of its discipline, or delete it. Along the top:\n  export the ticked sheets as their own PDF, read every name off the title\n  blocks again, sort by discipline and sheet number, tick all or none.",
+  "sig": "9mTnUQ69ioqkSwCgfeAmQslpP123UwsVEeSJKMSXB383n+EgXjyy0rFrBnVwH4pWoGrT3i8Zk76WjuM3MzFgBg=="
 }
