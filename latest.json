@@ -1,17 +1,17 @@
 {
   "version": "0.1.3",
-  "build": 187,
-  "displayBuild": 2,
+  "build": 188,
+  "displayBuild": 3,
   "released": "2026-11-02",
   "file": "NXG Takeoff-0.1.3-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64.pkg",
-  "sha256": "1c0c12b08d41fa65d164416d4183247f369dbbf97b41df4613a99fae4dd1b762",
-  "bytes": 178879150,
+  "sha256": "80a846988e7c5735d76878c4c536543de3a3c171bebc8d38fe910042b9782c7c",
+  "bytes": 178880236,
   "zipFile": "NXG Takeoff-0.1.3-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64-mac.zip",
-  "zipSha256": "3433bdcc7d30d03678416fce7dba7b8aa0e9d8ad1c9ef7d1a40aaec33d38f6c6",
-  "zipBytes": 172334830,
-  "notes": "Fixes the update that broke the app.\n\n- **An update never installs under a running app.** \"Restart now\" closes NXG and a\n  small script swaps the new version in. It used to give up waiting after a\n  minute and swap anyway — so if closing was held up (a \"save changes?\"\n  question), the app still open had its files replaced underneath it and showed\n  code instead of the page. It now waits for as long as the app is really open.\n\n- **\"Restart now\" no longer fails with \"swap.sh: no such file\".** A newer update\n  starting to download while the bar still offered the last one deleted the\n  folder the button pointed at.\n\n- **Cover sheet**: a proper button at the top of Pages. In the organizer each\n  sheet has **Duplicate** (one click — a copy right after it, with its scale\n  and name), and a ⋯ menu (or right-click) to move it up or down, rotate it,\n  insert a blank sheet after it, replace it with a revised one, put its scale on\n  every sheet or every sheet of its discipline, or delete it. Along the top:\n  export the ticked sheets as their own PDF, read every name off the title\n  blocks again, sort by discipline and sheet number, tick all or none.",
-  "sig": "9mTnUQ69ioqkSwCgfeAmQslpP123UwsVEeSJKMSXB383n+EgXjyy0rFrBnVwH4pWoGrT3i8Zk76WjuM3MzFgBg=="
+  "zipSha256": "4e615f7373f6e0eeff1cb5c4f27718749773a154d7a94092b4323afcee4415ed",
+  "zipBytes": 172334898,
+  "notes": "Restart now works.\n\n- An update that has already downloaded is used, not fetched again from\n  scratch. Every check used to throw the finished download away and start over.\n- Clicking **Restart now** while the download is still finishing waits for it,\n  then restarts. It used to treat the half-written download as broken, delete\n  it, and do nothing.\n- The button says \"Restarting…\" while it works, instead of looking dead.",
+  "sig": "xPLHlKvUtK8q6YqdwUuFWlh7qzgqTceA0R0fwYMfbqbTNLTnGAqaWavet2+koi1+TL8OVbTYU5zIEknf8QDYAw=="
 }
