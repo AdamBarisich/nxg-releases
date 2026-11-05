@@ -1,17 +1,17 @@
 {
   "version": "0.1.3",
-  "build": 188,
-  "displayBuild": 3,
-  "released": "2026-11-02",
+  "build": 189,
+  "displayBuild": 4,
+  "released": "2026-11-05",
   "file": "NXG Takeoff-0.1.3-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64.pkg",
-  "sha256": "80a846988e7c5735d76878c4c536543de3a3c171bebc8d38fe910042b9782c7c",
-  "bytes": 178880236,
+  "sha256": "eb0c00ce371a862f62c62a7bade1185dbcfc8622a16e2da4c7dfcbcc44cfbfd0",
+  "bytes": 178883301,
   "zipFile": "NXG Takeoff-0.1.3-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64-mac.zip",
-  "zipSha256": "4e615f7373f6e0eeff1cb5c4f27718749773a154d7a94092b4323afcee4415ed",
-  "zipBytes": 172334898,
-  "notes": "Restart now works.\n\n- An update that has already downloaded is used, not fetched again from\n  scratch. Every check used to throw the finished download away and start over.\n- Clicking **Restart now** while the download is still finishing waits for it,\n  then restarts. It used to treat the half-written download as broken, delete\n  it, and do nothing.\n- The button says \"Restarting…\" while it works, instead of looking dead.",
-  "sig": "xPLHlKvUtK8q6YqdwUuFWlh7qzgqTceA0R0fwYMfbqbTNLTnGAqaWavet2+koi1+TL8OVbTYU5zIEknf8QDYAw=="
+  "zipSha256": "4ee4a458ce757336553c8d1f6bcc77ee962b94085a1361c0ff7abb68381f49b8",
+  "zipBytes": 172335277,
+  "notes": "Export and print the sheets you choose.\n\n- **Export** and **Print** ask which sheets first: all of them, the one on\n  screen, or any you pick — tick them by name, or type a range like 1-3, 6.\n  Only those pages go into the PDF, in their order, with their markup.",
+  "sig": "MgxiBEkRImfApdZFqqxWyeq75yHeIUGvVibccM1CPEunCbfqcI6n3sHqKUD6YjuUxIrlkKAfvN9H1dWwdF5OCQ=="
 }
