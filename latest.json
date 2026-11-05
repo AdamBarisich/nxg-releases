@@ -1,17 +1,17 @@
 {
   "version": "0.1.3",
-  "build": 189,
-  "displayBuild": 4,
+  "build": 190,
+  "displayBuild": 5,
   "released": "2026-11-05",
   "file": "NXG Takeoff-0.1.3-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64.pkg",
-  "sha256": "eb0c00ce371a862f62c62a7bade1185dbcfc8622a16e2da4c7dfcbcc44cfbfd0",
-  "bytes": 178883301,
+  "sha256": "66a3ed7f9054dbd762cd8179296565d5a8a062d26a5ce618a259849e9104eda5",
+  "bytes": 178883290,
   "zipFile": "NXG Takeoff-0.1.3-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64-mac.zip",
-  "zipSha256": "4ee4a458ce757336553c8d1f6bcc77ee962b94085a1361c0ff7abb68381f49b8",
-  "zipBytes": 172335277,
-  "notes": "Export and print the sheets you choose.\n\n- **Export** and **Print** ask which sheets first: all of them, the one on\n  screen, or any you pick — tick them by name, or type a range like 1-3, 6.\n  Only those pages go into the PDF, in their order, with their markup.",
-  "sig": "MgxiBEkRImfApdZFqqxWyeq75yHeIUGvVibccM1CPEunCbfqcI6n3sHqKUD6YjuUxIrlkKAfvN9H1dWwdF5OCQ=="
+  "zipSha256": "086ae6829ea5e5199145f5209e4c3dec347e3047d44fed5449d9c8a0c1c54682",
+  "zipBytes": 172335331,
+  "notes": "Quitting actually quits.\n\n- **⌘Q** and **Restart now** closed the window but left NXG running in the\n  Dock, so the update sat waiting until it was force-quit. Both now quit\n  properly — after asking about unsaved work, as before — and Restart now\n  comes back up on the new build by itself.",
+  "sig": "qw1zPuBzLrf1Uq5KWWkM8sqAXB3GqiHYxYnCrQeIsqr/jS4vOkyHb+UG1FYmwvAJ9J6cxsPtOTfU5qPJzmSdBQ=="
 }
