@@ -1,17 +1,17 @@
 {
   "version": "0.1.3",
-  "build": 191,
-  "displayBuild": 6,
+  "build": 192,
+  "displayBuild": 7,
   "released": "2026-11-07",
   "file": "NXG Takeoff-0.1.3-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64.pkg",
-  "sha256": "a4d4a112ccbed2815b0b36df5efb83b58b60447e8b5e54296f5302828f85a129",
-  "bytes": 178883675,
+  "sha256": "51a78ef4088e34f4076197a40605f8569c1d4ca719b29a2658f1d0a6464628f4",
+  "bytes": 178899831,
   "zipFile": "NXG Takeoff-0.1.3-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64-mac.zip",
-  "zipSha256": "89f49d11f3f0477f712b55be1421b3c979cbc8eca4bab17d67191cd98fcf138f",
-  "zipBytes": 172335547,
-  "notes": "Updates install once, cleanly — and every release is now tried for real first.\n\n- Clicking **Restart now** a second time, or the hourly check finding the same\n  update again, could start a second installer racing the first for the app.\n  There is now only ever one, and Restart now simply quits to let it run.\n- Before a build is published it is installed on a test copy and used the way\n  you use it: Restart now, ⌘Q, quitting with unsaved work, a bad download, and\n  open → take off → save → reopen → export → crash recovery. A build that\n  fails any of it is not published.",
-  "sig": "ESdf1bpZM5q0BLeF2W9RThv85MUQFqpXiMOBlqeolwCg7sPAy5U/5oWqaT1LYd7QniOIBGWX7Vok2eyi0x9MBw=="
+  "zipSha256": "e186c4075b188f25a7d4a319b07b1c8d73a9ab00c848d58a6a284733ee678df0",
+  "zipBytes": 172349114,
+  "notes": "Detail scales, safer numbers, and big plan sets that stay up.\n\n- **Detail scale boxes.** A 1 1/2\" detail on a 1/4\" sheet now measures right:\n  drag a box around the detail (+ Detail scale, by the sheet's scale) and pick\n  its scale — it is read off the sheet when it says one. Marks inside measure at\n  it. The bid check warns when a sheet lists two scales and has no box. The\n  scale list gains 1/16\", 3/32\", 1 1/2\", 3\" and 6\".\n- **New condition types:** Trench (CY + LF), Stair (risers, tread/riser SF,\n  concrete CY, LF up the slope) and Pier / caisson (EA + CY).\n- **Each leg's length** can show along a run, on screen and in the export;\n  click a leg to read it.\n- **Presets:** save a condition's setup and start new ones from it.\n- **Callouts jump:** \"3/A-501\" on a sheet is a link to A-501 in Select mode.\n- **Money fixes:** the Excel export no longer double-counts lines or mixes\n  alternates into the base; assemblies now honour Occurs, Factor, Sub and\n  Markup on their row; the spoken-scope card shows the real amount. Bids\n  with those assembly settings will price differently — correctly.\n- **Faster and lighter:** with a job open and nothing happening the app now\n  uses almost no CPU (it was a quarter of a core, forever); marking up uses a\n  tenth of what it did; autosave no longer rewrites the whole plan set every\n  five seconds; memory after an export drops from about 5.6 GB to under 1 GB\n  on a 62-sheet set; plan sets open faster; and paging a big set no longer\n  grows memory until the window crashes.\n- **Tabs:** work started in one tab always lands in that tab.\n- **Safety:** files are written whole or not at all; a damaged jobs list or\n  settings file is kept rather than written over; recovered work is kept until\n  it is safely saved; photo pins follow a job between Macs.\n- **Updates:** if a new build ever fails to start, the previous one is put\n  back automatically and you are told.\n- **Help → Send Diagnostics…** saves one file to send when something is off —\n  no projects in it, no passwords or keys, nothing sent anywhere.\n- Spot elevations now appear in exported and printed PDFs.",
+  "sig": "/gO4dIbZhqsuMfvSaZU6bCIkwQzMWsoGDnetnezHN0hiePnhUbyvYLby982IbwdzZZkxXLB/fxXHQVUD0X55AA=="
 }
