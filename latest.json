@@ -1,17 +1,17 @@
 {
   "version": "0.1.3",
-  "build": 190,
-  "displayBuild": 5,
-  "released": "2026-11-05",
+  "build": 191,
+  "displayBuild": 6,
+  "released": "2026-11-07",
   "file": "NXG Takeoff-0.1.3-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64.pkg",
-  "sha256": "66a3ed7f9054dbd762cd8179296565d5a8a062d26a5ce618a259849e9104eda5",
-  "bytes": 178883290,
+  "sha256": "a4d4a112ccbed2815b0b36df5efb83b58b60447e8b5e54296f5302828f85a129",
+  "bytes": 178883675,
   "zipFile": "NXG Takeoff-0.1.3-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.3-arm64-mac.zip",
-  "zipSha256": "086ae6829ea5e5199145f5209e4c3dec347e3047d44fed5449d9c8a0c1c54682",
-  "zipBytes": 172335331,
-  "notes": "Quitting actually quits.\n\n- **⌘Q** and **Restart now** closed the window but left NXG running in the\n  Dock, so the update sat waiting until it was force-quit. Both now quit\n  properly — after asking about unsaved work, as before — and Restart now\n  comes back up on the new build by itself.",
-  "sig": "qw1zPuBzLrf1Uq5KWWkM8sqAXB3GqiHYxYnCrQeIsqr/jS4vOkyHb+UG1FYmwvAJ9J6cxsPtOTfU5qPJzmSdBQ=="
+  "zipSha256": "89f49d11f3f0477f712b55be1421b3c979cbc8eca4bab17d67191cd98fcf138f",
+  "zipBytes": 172335547,
+  "notes": "Updates install once, cleanly — and every release is now tried for real first.\n\n- Clicking **Restart now** a second time, or the hourly check finding the same\n  update again, could start a second installer racing the first for the app.\n  There is now only ever one, and Restart now simply quits to let it run.\n- Before a build is published it is installed on a test copy and used the way\n  you use it: Restart now, ⌘Q, quitting with unsaved work, a bad download, and\n  open → take off → save → reopen → export → crash recovery. A build that\n  fails any of it is not published.",
+  "sig": "ESdf1bpZM5q0BLeF2W9RThv85MUQFqpXiMOBlqeolwCg7sPAy5U/5oWqaT1LYd7QniOIBGWX7Vok2eyi0x9MBw=="
 }
