@@ -1,17 +1,17 @@
 {
   "version": "0.1.5",
-  "build": 198,
-  "displayBuild": 3,
-  "released": "2026-11-12",
+  "build": 199,
+  "displayBuild": 4,
+  "released": "2026-11-13",
   "file": "NXG Takeoff-0.1.5-arm64.pkg",
   "notarized": false,
   "url": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.5-arm64.pkg",
-  "sha256": "c24dbb3be9fe11f757558bd215ec87ed01fa460908011ebe4566f3b3dd6b185b",
-  "bytes": 226248332,
+  "sha256": "fa60cda18f8396622bab0d1fb1c44e30fb85f2053b02aaef4a646cb11d958528",
+  "bytes": 226257612,
   "zipFile": "NXG Takeoff-0.1.5-arm64-mac.zip",
   "zipUrl": "https://github.com/AdamBarisich/nxg-releases/releases/latest/download/NXG.Takeoff-0.1.5-arm64-mac.zip",
-  "zipSha256": "f152b5a6be395e27d0e63dc810a1361fbda076985aff12d5cc856fc664047c96",
-  "zipBytes": 218425294,
+  "zipSha256": "4594b6b503883c5016c59a3624742e0c4861ee772fd83340bef25946a4cefb66",
+  "zipBytes": 218436434,
   "notes": "Faster takeoff, automatic takeoff, and working as a team.\n\n**Takeoff tools**\n- **Draw once for several conditions.** Shift-click floor, base and ceiling,\n  outline the room once, and each gets its own quantity.\n- **Doors and windows come off the wall.** Click an opening onto a wall run and\n  the wall loses its width and its area.\n- **Linked typicals.** Take off one unit, place it on every typical sheet, and\n  change the original to change them all.\n- **A legend on each sheet** with that sheet's quantities, printed with it.\n- **Drops and round-up** per segment on linear conditions, for MEP runs.\n\n**Automatic takeoff, on this Mac**\n- **Rooms from their labels** (⇧R): net area and perimeter for every named room.\n- **Walls from the drawing** (⇧W): centerline length from the plan's own lines.\n- **Count a text** (⇧T): every D1 or WH-1 on the sheet or the whole set, exact.\n- **Pattern search** (P): box a hatch and get every area filled with it.\n- **Auto count** finds mirrored symbols, skips legends, and searches every sheet.\n- Every result is a draft you review before it is added. Nothing is uploaded.\n\n**Working together, through your team server**\n- **Sign in first.** NXG now opens on a sign-in page. On your Mac: click\n  *Start the team server on this Mac*, then create the Admin account. Invite\n  your crew from Team ▾ → People…. In Settings → Team, tick *Other Macs in the\n  office can connect* (and *Start it when this Mac starts*); teammates enter\n  the address shown there and their invite code.\n- **Several people on one job at once**: everyone draws, moves and prices at\n  the same time and sees the others within a second — their marks, pointer and\n  sheet. Undo takes back only your own changes. Dropped connection: keep\n  working; it catches up.\n- **Admin, Manager, Member.** Managers invite Members and decide per person:\n  sees prices, edits rates, sends proposals, creates share links, sees all jobs.\n  Someone who can't see prices never receives them.\n- **Comments, statuses, lock and approve** on any mark; a live markups list\n  with a summary PDF; a session record of who did what; @mentions.\n- **Share links**: a client or sub opens the job in any browser — plans,\n  markup, comments, never prices.\n- **Jobs, price book and templates live on the server**, with versions you can\n  restore and nightly backups of the server's folder.\n\n**Also**\n- **Help → NXG Takeoff Help** (⇧⌘/): a searchable guide.\n- Scales read correctly off title blocks that put the date before the scale.\n- Job cost's material/labor/sub budget covers only the work you were paid for.",
-  "sig": "wjM6R5E+kq5guDRE0ANxP143+vmkHbWgtdnNipgZToYJCpQpPzpABa+NEuoG6hmUhMrEmvkKQpdGkgmMQrGOAg=="
+  "sig": "MSQU2tN71UBmXcFDxpTTnOUA04i75Bh0pnSfZgiqV7oj+wCMGCTJJ8sk//KQTa6qtjprHjHfHZNIum7UQcmwBw=="
 }
